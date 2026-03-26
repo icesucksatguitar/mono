@@ -1,0 +1,55 @@
+.navbar-shell {
+  position: absolute;
+  top: 36px;
+  left: 220px;
+  display: flex;
+  align-items: center;
+  gap: 18px;
+}
+
+nav {
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  width: 871px;
+  height: 68.9px;
+  border-radius: 33px;
+  justify-content: space-between;
+  backdrop-filter: blur(28.2px);
+  padding: 18px 36px 18px 28px;
+  background: #0000000f;
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+  gap: 35px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  font-family: Aspekta, sans-serif;
+  font-weight: 450;
+  font-size: 18px;
+  line-height: 125%;
+  letter-spacing: -0.05em;
+  color: #000000;
+  cursor: pointer;
+}
+
+nav li a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.dark-light {
+  display: flex;
+  align-items: center;
+}
+
+.darkmode {
+  cursor: pointer;
+  display: block;
+}
